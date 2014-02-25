@@ -5,7 +5,7 @@ height = canvas.width
 size = 60
 radius = size * .40
 ctx = canvas.getContext "2d"
-boxesPerLine = 3
+circlesPerLine = 3
 #{{{1 data
 
 data =

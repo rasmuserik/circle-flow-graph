@@ -1,8 +1,6 @@
 # circle-flow-graph 0.0.1
 
-Experiment in drawing flow between circles
-[![browser support](https://ci.testling.com/rasmuserik/circle-flow-graph.png)](http://ci.testling.com/rasmuserik/circle-flow-graph)
-
+Experiment in drawing flow between circles![browser support](https://ci.testling.com/rasmuserik/circle-flow-graph.png)
 
 # setup
 
@@ -12,7 +10,7 @@ Experiment in drawing flow between circles
     size = 60
     radius = size * .40
     ctx = canvas.getContext "2d"
-    boxesPerLine = 3
+    circlesPerLine = 3
 
 # data
 
