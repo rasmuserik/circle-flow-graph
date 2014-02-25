@@ -1,19 +1,19 @@
 {
-  "name": "box-flow-graph",
+  "name": "circle-flow-graph",
   "version": "0.0.1",
   "devDependencies": {
     "reputil": "*"
   },
-  "description": "Experiment in drawing flow between square boxes",
+  "description": "Experiment in drawing flow between circles",
   "keywords": [],
   "author": ["Rasmus Erik Voel Jensen (solsort.com)"],
   "scripts": {
-    "prepublish": "reputil build; git add box-flow-graph.js README.md",
+    "prepublish": "reputil build; git add circle-flow-graph.js README.md",
     "start": ""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rasmuserik/box-flow-graph.git"
+    "url": "https://github.com/rasmuserik/circle-flow-graph.git"
   },
   "dependencies": {
   },
