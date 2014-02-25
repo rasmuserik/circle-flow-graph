@@ -1,0 +1,33 @@
+{
+  "name": "box-flow-graph",
+  "version": "0.0.1",
+  "devDependencies": {
+    "reputil": "*"
+  },
+  "description": "Experiment in drawing flow between square boxes",
+  "keywords": [],
+  "author": ["Rasmus Erik Voel Jensen (solsort.com)"],
+  "scripts": {
+    "prepublish": "reputil build; git add box-flow-graph.js README.md",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rasmuserik/box-flow-graph.git"
+  },
+  "dependencies": {
+  },
+  "testling": {
+    "html": "test.html",
+    "browsers": [
+      "ie/7..latest",
+      "chrome/27..canary",
+      "firefox/22..nightly",
+      "safari/5.0.5..latest",
+      "opera/11.6..next",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/4.2"
+    ]
+  }
+}
