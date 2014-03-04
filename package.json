@@ -6,7 +6,9 @@
   },
   "description": "Experiment in drawing flow between circles",
   "keywords": [],
-  "author": ["Rasmus Erik Voel Jensen (solsort.com)"],
+  "author": [
+    "Rasmus Erik Voel Jensen (solsort.com)"
+  ],
   "scripts": {
     "prepublish": "reputil build; git add circle-flow-graph.js README.md",
     "start": ""
@@ -16,6 +18,7 @@
     "url": "https://github.com/rasmuserik/circle-flow-graph.git"
   },
   "dependencies": {
+    "reputil": "0.0.7"
   },
   "testling": {
     "html": "test.html",
